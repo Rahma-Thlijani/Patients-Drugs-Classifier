@@ -1,4 +1,4 @@
-![Image](drug1.jpg)
+![Image](drugs1.png)
 # Patients Drugs Classification
 Data science project, in which we apply: Exploratory Data Analysis, Data Visualization, Feature Selection, and Multiple Regression model aiming to predict a car price.
 ## Data Description
