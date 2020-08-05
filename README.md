@@ -40,7 +40,9 @@ All the project steps are organized and listed below:
 * Model2: Decision Tree
 * Model3: Random Forest
 ### 8. Feature Importance
-Model1: Decision Tree
+Model1: Decision Tree \
+
 ![Image](importance1.png)
-Model3: Random Forest
+Model3: Random Forest \
+
 ![Image](importance3.png)
