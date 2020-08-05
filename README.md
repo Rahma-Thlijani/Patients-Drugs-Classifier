@@ -16,33 +16,30 @@ All the project steps are organized and listed below:
 ### 2. Data Understanding and Manipulation
 * Show data header
 * Show columns names
-* Drop the first irrelevant column
-* Fix columns names
 * Data information
 * Check to number of rows and columns
 ### 3. Data Processing
 * Dealing with missing data
 * Drop the duplicate rows
-* Correct data format
-* Dealing with outliers
-* Data standardization
-* Data normalization
-* Binning
-* Converting categorical values
-### 4. Exploratory Data Analysis
-* Descriptive Statical Analysis 
-* Analyzing Individual Features 
-* Combinaison and Groupping 
-* Output Analysis \
-![Image](c1.png)  ![Image](c2.png)
-### 5. Feature Selection
-### 6. Model Development
-* Select the dataframe
-* Split data set into training and testing parts (80/20)
-* Scale both training and testing input data
-* Train the regression model
+### 4. Data Exploration
+* Data Description
+* Target Variable (Drugs) and Insights
+* Features and Insights
+* Analyzing and Dealing with Outliers
+### 5. Model Development
+* Data Preparation
+* Model1: KNN
+* Model2: Decision Tree
+* Model3: Random Forest
+### 6. Model Optimization
+* Model1: KNN
+* Model2: Decision Tree
+* Model3: Random Forest
 ### 7. Model Evaluation
-We tested the multiple regression model on the testset to provide predictions, and then we evaluated its performance using the three metrics:
-* Mean Absolute Error (MAE): 2921.78
-* Root mean squared error (RMSE): 4150.64
-* R-squared Score (R2_Score): 0.7503
+* Model1: KNN
+* Model2: Decision Tree
+* Model3: Random Forest
+### 8. Feature Importance
+Model1: Decision Tree
+
+Model3: Random Forest
