@@ -1,2 +1,2 @@
-# Patients-Drugs-Classifier
+# Patients Drugs Classification
 uuju
