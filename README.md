@@ -41,6 +41,6 @@ All the project steps are organized and listed below:
 * Model3: Random Forest
 ### 8. Feature Importance
 Model1: Decision Tree
-![Image](imporatance1.png)
+![Image](importance1.png)
 Model3: Random Forest
-![Image](imporatance3.png)
+![Image](importance3.png)
