@@ -1,17 +1,27 @@
 ![Image](drugs1.jpg)
 # Patients Drugs Classification
-Data science project, in which we apply: Exploratory Data Analysis, Data Visualization, Feature Selection, and Multiple Regression model aiming to predict a car price.
 ## Data Description
-We have the Automobile dataset "auto.csv". It was obtained through the following link: https://archive.ics.uci.edu/ml/machine-learning-databases/autos/imports-85.data.
 
 The datasets has 205 rows and 27 columns containing the cars' characteristics such as 'symboling', 'normalized-losses', 'maker', 'fuel-type', 'aspiration',
 'num-of-doors', 'body-style', etc.
+
+We have Drugs dataset. This dataset have each patient a data point (227 patients in total), and for each, we have 4 columns, each column represents a different aspect or measure of the specific country.
+
 ## Project Overview
-In this data science project, we will focus on applying an **exploratory data analysis (EDA), visualizing the data, and selecting the features**. In addition, we will train a multiple regression model aiming to predict the price of the car regarding its different properties. Finally, we will evaluate the model based on the MAE
-the RMSE and the R2_Score.
+In this project, will apply supervised learning techniques, we will build a Patients Drugs Classifier.
+The goal of the project is to understand the dataset, to get some insights from it, and finally to choose the best model that can predict the type of drug for a taget patient.
+To accomplish this, we will:
+* Understand, manipulate, process and explore the data.
+* Try three different models:
+ 1. k nearest neighbors (KNN)
+ 2. Decision Tree
+ 3. Random Forest
+* Get the optimized Linear, Lasso, and Random Forest Regressors using GridsearchCV to reach the best model.
+* Choose the best performer model. 
+* Detect the features importance for each model.
+
 ## Project Steps
 All the project steps are organized and listed below:
-
 ### 1. Data Import
 ### 2. Data Understanding and Manipulation
 * Show data header
@@ -47,3 +57,12 @@ All the project steps are organized and listed below:
 * Model3: Random Forest 
 
 ![Image](importance3.png)
+## Conclusion
+Three different learning classifierss (KNN, Decision Tree and Random Forest) were tested and  evaluated using...... we have achieved the best prediction performance using Random Forest, followed by Gradient Boosting, then Linear Regression.
+
+Using all features in the dataset, dt is the best classifiers, the results are presented using the following metrics:
+
+Mean Absolute Error (MAE): 2142.13
+Root mean squared error (RMSE): 3097.19
+R-squared Score (R2_Score): 0.8839
+
