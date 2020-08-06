@@ -13,7 +13,7 @@ To accomplish this, we will:
  1. k nearest neighbors (KNN)
  2. Decision Tree
  3. Random Forest
-* Get the optimized Linear, Lasso, and Random Forest Regressors using GridsearchCV to reach the best model.
+* Get the optimized KNN, Decision Tree and Random Forest using GridsearchCV to reach the best model.
 * Choose the best performer model. 
 * Detect the features importance for each model.
 
