@@ -10,9 +10,10 @@ The goal of the project is to understand the dataset, to get some insights from 
 To accomplish this, we will:
 * Understand, manipulate, process and explore the data.
 * Try three different models:
- 1. k nearest neighbors (KNN)
- 2. Decision Tree
- 3. Random Forest
+ . **k nearest neighbors (KNN)** 
+ 
+ . Decision Tree
+ . Random Forest
 * Get the optimized KNN, Decision Tree and Random Forest using GridsearchCV to reach the best model.
 * Choose the best performer model. 
 * Detect the features importance for each model.
