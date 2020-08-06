@@ -9,8 +9,8 @@ In this project, will apply supervised learning techniques(multiclass claffisica
 The goal of the project is to understand the dataset, to get some insights from it, and finally to choose the best model that can predict the type of drug for a taget patient.
 To accomplish this, we will:
 * Understand, manipulate, process and explore the data.
-* Try three different models:
- . **k nearest neighbors (KNN)** 
+* Try three different models: \
+  * **k nearest neighbors (KNN)** 
  
  . Decision Tree
  . Random Forest
@@ -58,6 +58,6 @@ All the project steps are organized and listed below:
 ## Conclusion
 Three different learning classifiers (KNN, Decision Tree and Random Forest) were tested and evaluated using "Accuracy" and "Jaccard Similarity Score". Afterwards, we have achieved the best prediction performance.
 
-Using all features in the dataset, Decision Tree and Random Forest are the best classifiers, the results are presented using the following metrics:
+Using all features in the dataset, both Decision Tree and Random Forest are the best classifiers, the results are presented using the following metrics:
 * Accuracy:  0.92307
 * Jaccard_similarity_score:  0.92307
