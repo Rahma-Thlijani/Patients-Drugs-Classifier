@@ -2,13 +2,10 @@
 # Patients Drugs Classification
 ## Data Description
 
-The datasets has 205 rows and 27 columns containing the cars' characteristics such as 'symboling', 'normalized-losses', 'maker', 'fuel-type', 'aspiration',
-'num-of-doors', 'body-style', etc.
-
-We have Drugs dataset. This dataset have each patient a data point (227 patients in total), and for each, we have 4 columns, each column represents a different aspect or measure of the specific country.
+We have Drugs dataset. This dataset have each patient a data point (200 patients in total), and for each, we have 6 columns, each column represents a different information about the specific patient: demographic informmation (age, sex), health state (cholesterol, BP...) and the type of drug taken by this patient.
 
 ## Project Overview
-In this project, will apply supervised learning techniques, we will build a Patients Drugs Classifier.
+In this project, will apply supervised learning techniques(multiclass claffisication), we will build a Patients Drugs Classifier.
 The goal of the project is to understand the dataset, to get some insights from it, and finally to choose the best model that can predict the type of drug for a taget patient.
 To accomplish this, we will:
 * Understand, manipulate, process and explore the data.
@@ -58,11 +55,8 @@ All the project steps are organized and listed below:
 
 ![Image](importance3.png)
 ## Conclusion
-Three different learning classifierss (KNN, Decision Tree and Random Forest) were tested and  evaluated using...... we have achieved the best prediction performance using Random Forest, followed by Gradient Boosting, then Linear Regression.
+Three different learning classifiers (KNN, Decision Tree and Random Forest) were tested and evaluated using "Accuracy" and "Jaccard Similarity Score". Afterwards, we have achieved the best prediction performance.
 
-Using all features in the dataset, dt is the best classifiers, the results are presented using the following metrics:
-
-Mean Absolute Error (MAE): 2142.13
-Root mean squared error (RMSE): 3097.19
-R-squared Score (R2_Score): 0.8839
-
+Using all features in the dataset, Decision Tree and Random Forest are the best classifiers, the results are presented using the following metrics:
+* Accuracy:  0.92307
+* Jaccard_similarity_score:  0.92307
