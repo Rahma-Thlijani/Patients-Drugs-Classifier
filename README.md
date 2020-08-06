@@ -9,11 +9,10 @@ In this project, will apply supervised learning techniques(multiclass claffisica
 The goal of the project is to understand the dataset, to get some insights from it, and finally to choose the best model that can predict the type of drug for a taget patient.
 To accomplish this, we will:
 * Understand, manipulate, process and explore the data.
-* Try three different models: \
+* Try three different models: 
   * **k nearest neighbors (KNN)** 
- 
- . Decision Tree
- . Random Forest
+  * **Decision Tree** 
+  * **Random Forest** 
 * Get the optimized KNN, Decision Tree and Random Forest using GridsearchCV to reach the best model.
 * Choose the best performer model. 
 * Detect the features importance for each model.
